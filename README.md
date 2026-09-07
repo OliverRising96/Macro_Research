@@ -26,6 +26,7 @@ with live data while keeping the rest of the pipeline unchanged.
 python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
+pip install -e .  # makes `macro_research` importable from anywhere
 ```
 
 ### Run the tests
